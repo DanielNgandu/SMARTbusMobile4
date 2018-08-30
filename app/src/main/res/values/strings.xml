@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SMARTbus Mobile</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_help">Help</string>
+    <string name="action_about_us">About Us</string>
+    <string name="title_activity_select_bus_route">select_bus_route</string>
+    <string name="title_activity_listof_city">ListofCity</string>
+</resources>

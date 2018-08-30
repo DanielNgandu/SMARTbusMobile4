@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/track_buses"
+            android:icon="@drawable/ic_menu_travel"
+            android:title="Track Bus" />
+        <item
+            android:id="@+id/view_route_info"
+            android:icon="@drawable/ic_menu_route"
+            android:title="View Route Information" />
+
+        <item
+            android:id="@+id/view_schedule"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="View Bus Schedule" />
+    </group>
+    <group android:checkableBehavior="single">
+
+        <item android:title="Communicate">
+            <menu>
+                <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="Share SMARTbus App" />
+                <item
+                    android:id="@+id/contact_us"
+                    android:icon="@drawable/ic_menu_contact_us"
+                    android:title="Contact Developers" />
+                <item
+                    android:id="@+id/nav_feedback"
+                    android:icon="@drawable/ic_menu_fav"
+                    android:title="Give us some love" />
+
+            </menu>
+        </item>
+
+    </group>
+
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="Manage">
+            <menu>
+                <item
+                    android:id="@+id/nav_settings"
+                    android:icon="@drawable/ic_menu_manage"
+                    android:title="Settings" />
+            </menu>
+        </item>
+
+    </group>
+
+
+
+
+</menu>
